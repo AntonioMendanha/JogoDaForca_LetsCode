@@ -6,6 +6,8 @@
 
 3 - O boneco: não precisa, só um contador que mostra uma mensagem de fim de jogo com 5 erros.
 
+Teste a aplicação neste link: `https://jogo-da-forca-lets-code.vercel.app/`
+
 ### Implementação
 
 > ## Componentes
