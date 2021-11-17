@@ -1,0 +1,21 @@
+div.jogadas {
+  display: flex;
+}
+.result {
+  display: flex;
+  flex-direction: row;
+
+  margin: 2px 8px 2px 2px;
+  padding: 2px;
+
+}
+span.result {
+  border-bottom: 2px solid;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  justify-content: center;
+}
+.isCorrect {
+  color: black;
+}

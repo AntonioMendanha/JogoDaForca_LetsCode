@@ -1,27 +1,42 @@
-# HelloWorld
+# Jogo da Forca 
+
+1 - Palavras: Um array estático(definido por vocês), e a palavra da vez deve ser randômica;
+
+2 - As letras: Usar um input type text, e apagar depois de uma letra
+
+3 - O boneco: não precisa, só um contador que mostra uma mensagem de fim de jogo com 5 erros.
+
+### Implementação
+
+> ## Componentes
+>- [x] Criação do componente Header (cabeçalho da aplicação com as regras do jogo)
+>- [x] Criação do componente Wrapper (área principal da aplicação)
+>- [x] Criação do componente Result para mostrar o resultado atual do jogo
+
+> ### Organização do código
+>- [x] Criar um array de palavras secretas
+>- [x] Criar um input para captar as letras "jogadas" pelo player
+>- [x] Criar um array para guardar as letras "jogadas" pelo player
+>- [ ] Criar método para randomizar a escolha da palavra secreta
+>- [x] Verificar se a letra "jogada" pelo player existe na palavra secreta
+>- [x] Mostrar as letras jogadas 
+>- [x] Mostrar os acertos no componente Result
+>- [ ] Criar o sistema de vidas ( máximo 5 erros)
+>- [ ] Mostrar a quantidade de jogadas disponíveis
+>- [ ] Mostrar mensagem de Fim de Jogo
+>- [ ] Mostrar mensagem de "Vitória" ou "Derrota"
+>
+
+> ### Header
+>- [ ] Editar CSS
+>
+
+> ### Palavra Secreta
+>- [x] Mostrar a quantidade de letras da palavra secreta
+>- [x] Mostrar as letras corretas nas posições quando acertar
+>- [ ] Editar CSS
+>
+
+### JogoDaForca
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.0.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
